@@ -1,3 +1,10 @@
+/*
+    Compilation
+    g++ -o bin/triangle src/glad.c src/triangle.cpp $(pkg-config --cflags glfw3 --static --libs glfw3 gl)
+
+    Source: https://learnopengl.com/code_viewer_gh.php?code=src/1.getting_started/2.1.hello_triangle/hello_triangle.cpp
+
+*/
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
